@@ -8,9 +8,14 @@ an example of the shape of an ictal signal as follows:
 
 ![ictal](https://user-images.githubusercontent.com/10173320/81157233-f6737800-8fb0-11ea-88c6-e6f903a96469.png)
 
-an example of the shape of an muscle articat signal as follows:
+an example of the shape of an muscle articat signal as follows:        
 
 ![artifact](https://user-images.githubusercontent.com/10173320/81157252-fc695900-8fb0-11ea-912c-ca646058b0cd.png)
+
+
+![mucle1](https://user-images.githubusercontent.com/10173320/81261305-0ac57c80-9066-11ea-80ae-6f604b797ea2.png)
+                
+                Illustration of muscle artifact in chanel Fp1 and Fp2
 
 The picture below is an example of an EEG signal display that will be cut according to the desired criteria.
 
