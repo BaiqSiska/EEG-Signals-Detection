@@ -15,7 +15,6 @@ The steps are as follows:
     - Max
     - Min
     - Entropy
-    - Lyapunov Exponent
     - Deviance
 5. Classification
     - Support Vectore Machine
