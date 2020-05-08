@@ -11,13 +11,14 @@ The steps are as follows:
 3. EEG Signals Decomposition
     - Discrete Wavelet Transform (DWT)
 4. Features Extraction
-    - ' Mean ' 
-    - 'Max'
-    - 'Min'
-    - 'Entropy'
-    - 'Lyapunov Exponent'
-    - 'Deviance'
+    - Mean
+    - Max
+    - Min
+    - Entropy
+    - Lyapunov Exponent
+    - Deviance
 5. Classification
-    - 'Support Vectore Machine'
-
+    - Support Vectore Machine
+---
 *Note : Python is The application that I use to solve this problem. So that make sure it is installed on your computer.*
+---
