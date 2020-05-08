@@ -20,5 +20,4 @@ The steps are as follows:
 5. Classification
     - Support Vectore Machine
 ---
-*Note : Python is The application that I use to solve this problem. So that make sure it is installed on your computer.*
----
+*Note : Python is The application that I use to solve this problem. So that make sure it is installed on your computer*
