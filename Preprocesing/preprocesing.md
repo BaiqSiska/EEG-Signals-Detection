@@ -7,3 +7,8 @@ The signal preprocessing stage is the initial stage undertaken to obtain new dat
 4) Furthermore, Please export your data to CSV or text.
 5) Please, signals were cut out based on doctor's notes.
 6) Hereafter make sure your note is correct. Base on your note, you can be made a script for cutting signals automatic where I did that with a Python program.
+
+'''
+import pandas as pd
+import numpy as np
+'''
