@@ -11,7 +11,7 @@ The steps are as follows:
 3. EEG Signals Decomposition
     - Discrete Wavelet Transform (DWT)
 4. Features Extraction
-    - 'Mean'
+    - ' Mean ' 
     - 'Max'
     - 'Min'
     - 'Entropy'
