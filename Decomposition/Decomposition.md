@@ -1,18 +1,32 @@
 Decomposition
 ===
 EEG signals that have been cut will be processed again into some sub-bands of signals which are often called the signal decomposition process. The EEG signals decomposition process, in this case, uses the Wavelet Transform (WT) method, especially the Discrete Wavelet Transform. EEG signal decomposition was done before doing the feature extraction process. This process will decompose the signal into low and high sub-signals. The high signal will be eliminated and the low signal will be decomposed again into two slices, it is a level decomposition process.
-Below is the illustration of the decomposition signal in 7th level.
+Below is the illustration of the decomposition signal on 7th level.
 
 ![Screenshot from 2020-05-08 09-57-35](https://user-images.githubusercontent.com/10173320/81365498-79f8aa80-9112-11ea-9d08-ed0fb65d2ed5.png)
 
 Descrete Wavele Transform (DWT)
 ---
+Wave is a function of time or space that moves (oscillating). Wavelets are small waves that have energy focused on time, providing tools for transient, non-stationary analysis, phenomena that vary with time. The below picture is some wavelet has normally used. 
+![wavelet1](https://user-images.githubusercontent.com/10173320/81378487-9526e280-9131-11ea-9a53-79cf67b427ae.png)
 
+Wavelet transform is a tool used to cut data or functions into different frequency components and study each component according to the scale resolution. Wavelet transform has classified into two types, Continuous Wavelet Transform (CWT) and Discrete Wavelet Transform (DWT). Now, I use DWT for decomposition EEG signals. DWT has used as a method for breaking down EEG signals into several different frequency bands. DWT decomposes the signal by estimating the details of the first level coefficient, then estimating the details of the signal coefficient for signal decomposition at the estimated next level coefficient.
+
+Theories of decomposition signals step as follows:
+* EEG signals have been cut off.
+* EEG signal has filtered into two parts a high frequency (H) and low (L).
+* Hereafter, it was determined the approximate coefficient (A1) and detail (D1) values using the downsampling method.
+* Therefore, it has got a first-level decomposition.
+* Please, do above step get the next level decomposition.
+
+DWT script as follows:
+
+---
 ```
 import pandas as pd
 import numpy as np
 ```
-menyatukan semua potongan sinyal
+Below script is used to unite all the signal pieces.
 ```
 import glob
 a=glob.glob(r'E:\MAGISTER\DATA\ANALISIS\POTONG DATA\A\A*.txt')
@@ -37,7 +51,7 @@ df1.columns=kolom
 df1=df1.dropna()
 df1.tail()
 ```
-proses dekomoposisi sinyal dengan DWT level 6
+Below script is used to decomposition signals into 7th level.
 ```
 import time
 import matplotlib.pyplot as plt
