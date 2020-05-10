@@ -133,3 +133,4 @@ df3.columns=kolom
 df3=df3.dropna()
 df3.tail(20)
 ```
+This process produced an 8 sub-signals for each decomposed signal. The next steps you execute the feature extraction process.
