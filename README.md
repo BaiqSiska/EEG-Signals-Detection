@@ -21,7 +21,7 @@ The steps are as follows:
 
 ---
 
-if you want to practice, you can download EEG datasets which upload by the University of Bonn. link as follows: http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3
+if you want to practice, you can download EEG datasets which upload by University of Bonn. link as follows: http://epileptologie-bonn.de/cms/front_content.php?idcat=193&lang=3
 
 ---
 *Note : Python is The application that I use to solve this problem. So that make sure it is installed on your computer*
