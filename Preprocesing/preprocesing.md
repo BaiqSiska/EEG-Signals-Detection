@@ -11,7 +11,7 @@ The signal preprocessing stage is the initial stage undertaken to obtain new dat
 ```
 import pandas as pd
 import numpy as np
-ND=pd.read_csv(r'E:\MAGISTER\0_BISMILLAHIRRAHMANIRROHIM\ANALISIS THESIS\preprocessing data\1_object.csv')
+ND=pd.read_csv(r'E:\MAGISTER\DATA\ANALISIS\POTONG DATA\1_object.csv')
 ND.head()
 ```
 **Script was used cut off signals**
