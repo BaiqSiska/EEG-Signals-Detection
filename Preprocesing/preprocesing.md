@@ -348,5 +348,5 @@ A162.to_csv('A162.txt',index=False)
 A163.to_csv('A163.txt',index=False)
 A164.to_csv('A164.txt',index=False)
 ```
-After you have done those, you will get some signals which have characteristics of muscle artefact and ictal. Dataset has like that can download on the link in readme.md. one of plot sample ictal, muscle artefact and muscle artefact when ictal after cut of signals as follows:
+After you have done those, you will get some signals which have characteristics of muscle artefact and ictal. Dataset has like that can download the link on readme.md. one of plot sample ictal, muscle artefact and muscle artefact when ictal after cut of signals as follows:
 ![comparison signals](https://user-images.githubusercontent.com/10173320/81515123-bcadc300-935c-11ea-802f-ef2096ad1f93.png)
