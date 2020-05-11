@@ -1,6 +1,6 @@
 Decomposition
 ===
-EEG signals that have been cut will be processed again into some sub-bands of signals which are often called the signal decomposition process. The EEG signals decomposition process, in this case, uses the Wavelet Transform (WT) method, especially the Discrete Wavelet Transform. EEG signal decomposition was done before doing the feature extraction process. This process will decompose the signal into low and high sub-signals. The high signal will be eliminated and the low signal will be decomposed again into two slices, it is a level decomposition process.
+EEG signals that have been cut will be processed again into some sub-bands of signals which are often called the signal decomposition process. The EEG signals decomposition process, in this case, uses the Wavelet Transform (WT) method, especially Discrete Wavelet Transform. EEG signal decomposition was done before doing the feature extraction process. This process will decompose the signal into low and high sub-signals. The high signal will be eliminated and the low signal will be decomposed again into two slices, it is a level decomposition process.
 Below is the illustration of the decomposition signal on 7th level.
 
 ![Screenshot from 2020-05-08 09-57-35](https://user-images.githubusercontent.com/10173320/81365498-79f8aa80-9112-11ea-9d08-ed0fb65d2ed5.png)
